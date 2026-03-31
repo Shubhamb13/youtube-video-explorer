@@ -1,4 +1,5 @@
-export const YOUTUBE_API_KEY="AIzaSyAm2foQMjuW-0SURQek9yPz82LEp5YuMUc";
+
+export const YOUTUBE_API_KEY = import.meta.env.VITE_API_KEY;
 
 export const YOUTUBE_COMMENTS_API ="https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet%2Creplies&videoId=";
 

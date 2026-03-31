@@ -7,7 +7,7 @@ This application allows users to **search, browse, and watch videos**, along wit
 
 ## 🚀 Live Demo
 
-👉 (Add your deployed link here – Vercel)
+👉 https://youtube-video-explorer-ochre.vercel.app/
 
 ---
 

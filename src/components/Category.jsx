@@ -52,7 +52,7 @@ const Category = () => {
     >
       <Buttonslists />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 p-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
         {category.map((item) => (
           <Link to={`/watch?v=${item.id.videoId}`} key={item.id.videoId}>
             <LiveVideo

@@ -120,7 +120,7 @@ const Watchpage = () => {
     <div className="md:flex gap-6 p-2 w-full mx-auto">
       <div className="md:w-[70%] flex flex-col">
         <iframe
-          className="w-full aspect-video rounded-xl"
+          className="w-full aspect-video sm:rounded-xl"
           src={`https://www.youtube.com/embed/${videoId}`}
           title="YouTube video player"
           frameBorder="0"

@@ -11,7 +11,7 @@ const Video = ({ info, channelImg }) => {
      <div className="w-full cursor-pointer">
       
      
-      <div className="w-full aspect-video overflow-hidden rounded-xl">
+      <div className="w-full aspect-video overflow-hidden sm:rounded-xl">
         <img
           src={thumbnails?.maxres?.url || thumbnails?.high?.url}
           alt="thumbnail"
@@ -33,7 +33,7 @@ const Video = ({ info, channelImg }) => {
         <div className="flex flex-col min-w-0">
           
           
-          <p className="text-sm font-semibold line-clamp-2 leading-snug wrap-break-word">
+          <p className="text-sm font-semibold line-clamp-2 leading-snug break-words">
             {title}
           </p>
 

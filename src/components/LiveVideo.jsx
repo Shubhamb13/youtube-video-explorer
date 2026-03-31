@@ -8,7 +8,7 @@ const LiveVideo = ({ info, channelImg }) => {
     // <Link to={`{watch?v=${videoId}`}>
     <div className=" cursor-pointer">
       {/* Video Thumbnail / Player */}
-      <div className="w-full aspect-video overflow-hidden rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+      <div className="w-full aspect-video overflow-hidden sm:rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
         <iframe
           className="w-full h-full"
           src={`https://www.youtube.com/embed/${videoId}`}
@@ -31,7 +31,7 @@ const LiveVideo = ({ info, channelImg }) => {
 
         {/* Text Content */}
         <div>
-          <p className="font-semibold text-sm line-clamp-2">{snippet?.title}</p>
+          <p className="font-semibold text-sm line-clamp-2 break-words">{snippet?.title}</p>
 
           <p className="text-sm text-gray-600 mt-1">{snippet?.channelTitle}</p>
         </div>

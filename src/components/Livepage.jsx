@@ -55,7 +55,7 @@ const Livepage = () => {
 
   return (
     <div
-      className={`${isopenMenu ? "w-[85%]" : "w-full"} grid md:grid-cols-3 gap-4`}
+      className={`${isopenMenu ? "w-[85%]" : "w-full"} grid md:grid-cols-3 gap-4 md:p-4`}
     >
       {liveData.map((item) => (
         <Link key={item.id.videoId} to={`/watch?v=${item.id.videoId}&chatId=${livechtaMap[item.id.videoId]}`}>

@@ -73,12 +73,12 @@ const Videocontainer = () => {
   }, [nextpageToken, loading]);
 
   return (
-    <div className="flex flex-wrap gap-2 justify-evenly">
+    <div className="flex flex-wrap gap-1 justify-evenly">
       {video?.map((video) => (
         <Link
           key={video.id?.videoId || video.id}
           to={"watch?v=" + video.id}
-          className="hover:scale-[1.02] hover:bg-amber-100 rounded-lg transition duration-200 md:w-95 w-full md:p-4"
+          className="hover:scale-[1.02] hover:bg-amber-100 rounded-lg transition duration-200 md:w-95 w-full md:p-2"
         >
           <Video
             info={video}

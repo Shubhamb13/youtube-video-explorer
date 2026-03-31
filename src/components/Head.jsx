@@ -33,10 +33,21 @@ const Head = () => {
   }
 
   const fetchData = async () => {
-    const data = await fetch(`${SEARCH_SUGGESTIONS}${search}`);
-    const finaldata = await data.json();
+    
+    // const data = await fetch(`${SEARCH_SUGGESTIONS}${search}`);
+    // const finaldata = await data.json();
 
-    setResult(finaldata[1]);
+    // setResult(finaldata[1]);
+    if (!search.trim()) return;
+
+  const url = import.meta.env.DEV
+    ? `https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=${search}`
+    : `${SEARCH_SUGGESTIONS}${search}`;
+
+  const data = await fetch(url);
+  const finaldata = await data.json();
+
+  setResult(finaldata[1]);
 
     dispatch(
       addcache({

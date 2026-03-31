@@ -11,6 +11,7 @@ export const YOUTUBE_POPULAR_VIDEO=`https://youtube.googleapis.com/youtube/v3/vi
 
 export const YOUTUBE_SEARCH='https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=';
 
-export const SEARCH_SUGGESTIONS="https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+// export const SEARCH_SUGGESTIONS="https://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+export const SEARCH_SUGGESTIONS = "/api/search?q=";
 
 export const YOUTUBE_LIVE_VIDEO=`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=20&eventType=live&type=video&q=live&key=${YOUTUBE_API_KEY}`

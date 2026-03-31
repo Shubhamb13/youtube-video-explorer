@@ -46,16 +46,6 @@ VITE_API_KEY=your_api_key_here
 
 ---
 
-## 📸 Screenshots
-
-
-Example:
-![Home Page](./screenshots/home.png)
-![Search Results](./screenshots/search.png)
-![Live Chat](./screenshots/chat.png)
-
----
-
 ## ⚙️ Installation & Setup
 
 1. Clone the repository

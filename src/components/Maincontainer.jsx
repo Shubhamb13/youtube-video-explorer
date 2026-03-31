@@ -1,7 +1,7 @@
 import Buttonslists from "./Buttonslists";
 import Videocontainer from "./Videocontainer";
 
-const MainContainer = () => {
+const Maincontainer = () => {
   return (
     <div className="flex-1 min-w-0">
       <Buttonslists />
@@ -10,4 +10,4 @@ const MainContainer = () => {
   );
 };
 
-export default MainContainer;
+export default Maincontainer;

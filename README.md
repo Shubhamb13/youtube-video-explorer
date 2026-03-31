@@ -41,7 +41,7 @@ This application allows users to **search, browse, and watch videos**, along wit
 Create a `.env` file in the root directory and add:
 
 ```bash
-VITE_YOUTUBE_API_KEY=your_api_key_here
+VITE_API_KEY=your_api_key_here
 ```
 
 ---

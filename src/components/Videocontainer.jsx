@@ -78,7 +78,7 @@ const Videocontainer = () => {
         <Link
           key={video.id?.videoId || video.id}
           to={"watch?v=" + video.id}
-          className="hover:scale-[1.02] hover:bg-amber-100 rounded-lg transition duration-200 md:w-95 w-90 p-4"
+          className="hover:scale-[1.02] hover:bg-amber-100 rounded-lg transition duration-200 md:w-95 w-90 md:p-4"
         >
           <Video
             info={video}
